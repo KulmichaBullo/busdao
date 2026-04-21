@@ -1,36 +1,48 @@
-# 🚌 BusDAO
+# 🚌⚡ BusDAO
 
-**Fractional ownership of African matatus/buses on Initia blockchain.**
+**Community-owned electric matatus & buses on Initia blockchain. Green transport, fractional ownership, real profits.**
 
-## The Problem
-- Electric buses/matatus in Kenya cost $15K-$250K
-- Only large institutions can afford fleet ownership
+## 🌍 The Problem
+- Africa's public transport is dominated by dirty diesel matatus — choking cities, killing health
+- Electric buses cost $15K-$250K — only big players can afford the switch
 - Current SACCO model is opaque — investors can't verify earnings
-- Small investors and diaspora have no way to participate
+- Small investors and diaspora have no way to fund the green transition
 
-## The Solution
-BusDAO lets anyone invest in matatu/buses fractionally through tokenized ownership on Initia blockchain. Community-owned public transport with transparent revenue distribution.
+## ⚡ The Solution
+BusDAO lets anyone invest in **electric matatus and buses** through tokenized ownership on Initia blockchain. Community-owned green transport with transparent revenue distribution.
 
-## How It Works
+**Own a piece of Nairobi's electric future — for as little as $10.**
+
+## 🟢 How It Works
 1. **Invest** — Buy BUS tokens with stablecoins
-2. **Acquire** — DAO votes to purchase a matatu/bus
+2. **Vote** — DAO votes to purchase an electric matatu/bus
 3. **Route** — DAO votes which route, vehicle joins SACCO
 4. **Operate** — Normal operations (driver + conductor, cash/M-Pesa fares)
 5. **Earn** — Revenue distributed to token holders weekly/monthly
+6. **Impact** — Every vehicle on the road = less diesel, cleaner air, greener city
 
-## Architecture (Initia MiniEVM)
-- **BUSToken (ERC20)** — Fractional ownership token
-- **BusDAOTreasury** — Holds funds, manages purchases
-- **ProfitDistributor** — Receives revenue, splits to holders
-- **Governance** — Token-weighted voting on proposals
+## 🌱 Why Electric?
+- **Cost savings:** EVs cost 60-70% less to fuel and maintain than diesel
+- **Health:** Nairobi's air quality crisis needs clean transport now
+- **Profit:** Lower operating costs = higher returns for DAO members
+- **Future:** Kenya is moving to EV mandates — early movers win
+- **Story:** African green transport funded by African communities
 
-## Tech Stack
+## 🏗️ Architecture (Initia MiniEVM)
+| Contract | Purpose |
+|----------|---------|
+| **BUSToken (ERC20)** | Fractional ownership token — your % = your share of profits |
+| **BusDAOTreasury** | Holds funds, manages electric vehicle purchases |
+| **ProfitDistributor** | Receives revenue, splits to holders weekly/monthly |
+| **Governance** | Token-weighted voting on vehicle purchases, routes, SACCOs |
+
+## 🛠️ Tech Stack
 - **Blockchain:** Initia (MiniEVM rollup on testnet)
 - **Smart Contracts:** Solidity + Foundry
 - **Frontend:** React + ethers.js
 - **Network:** Initia testnet (initiation-2)
 
-## Project Structure
+## 📁 Project Structure
 ```
 busdao/
 ├── contracts/          # Solidity smart contracts
@@ -44,7 +56,7 @@ busdao/
 └── docs/               # Documentation
 ```
 
-## Timeline (Hackathon — 5 Days)
+## ⏰ Timeline (Hackathon — 5 Days)
 | Day | Deliverable |
 |-----|-------------|
 | 1 | Deploy MiniEVM rollup on Initia testnet |
@@ -53,10 +65,13 @@ busdao/
 | 4 | Integration testing + polish |
 | 5 | Demo video + DoraHacks submission |
 
-## Links
+## 🔗 Links
 - [Initia Docs](https://docs.initia.xyz)
 - [DoraHacks Hackathon](https://dorahacks.io/hackathon/initiate)
 - [Initia Testnet Explorer](https://scan.testnet.initia.xyz)
 
-## License
+## 📜 License
 MIT
+
+---
+*Green wheels, shared ownership, real impact.* 🌍⚡🚌
